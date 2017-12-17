@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Javier Guzmán
+tagline:             Personal web page
+url:                 https://jguzman.github.io
+paginate:            5
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Javier Guzmán
+  url:               https://twitter.com/jgoodman_8
+  email:             jguzmanfd@gmail.com
+
+# Custom vars
+version:             0.1.0
+github:
+  repo:              https://github.com/jgoodman8/profile
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
