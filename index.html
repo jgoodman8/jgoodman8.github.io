@@ -8,7 +8,7 @@
 <!--<![endif]-->
 
 <head>
-    <title>CV - Javier Guzmán Figueira Domínguez</title>
+    <title>J. Guzmán</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,6 +36,7 @@
 
     <nav class="navbar">
 
+        <!--Social list-->
         <ul class="social-list list-inline mb-0">
             <li class="list-inline-item">
                 <a class="icon-white" href="https://twitter.com/jgoodman_8">
@@ -96,17 +97,18 @@
                     </svg>
                 </a>
             </li>
-        </ul><!--//social-list-->
+        </ul>
 
+        <!--Mobile menu button-->
         <a class="navbar-toggler">
             <svg id="toggle-btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <path d="M0 0h24v24H0z" fill="none"/>
                 <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="white"/>
             </svg>
         </a>
-        <!--</button>-->
 
-        <div id="nav-items" class="navbar-collapse text-uppercase" id="navigation" style="">
+        <!--Menu items-->
+        <div id="nav-items" class="navbar-collapse text-uppercase" style="">
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item active mr-lg-3">
                     <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
@@ -124,6 +126,23 @@
         </div>
 
     </nav>
+</div>
+
+<div id="nav-items-mobile" class="navbar-collapse-mobile text-uppercase" style="">
+    <ul class="navbar-nav ml-lg-auto">
+        <li class="nav-item active mr-lg-3">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mr-lg-3">
+            <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item mr-lg-3">
+            <a class="nav-link" href="#">Resume</a>
+        </li>
+        <li class="nav-item mr-lg-3">
+            <a class="nav-link" href="mailto: jguzmanfd@gmail.com">Contact</a>
+        </li>
+    </ul>
 </div>
 
 <!--PROFILE-->
@@ -148,70 +167,6 @@
 
 <!--CONTENT-->
 <div class="wrapper">
-
-    <!--SIDE BAR-->
-    <div class="sidebar-wrapper">
-
-        <div class="education-container container-block">
-            <h2 class="container-block-title">Education</h2>
-            <div class="item">
-                <h4 class="degree">MSc in Artificial Intelligence Research</h4>
-                <span>Specialty in Data Science and Machine Learning</span>
-                <h5 class="meta">UIMP - AEPIA</h5>
-                <div class="time">2017 - 2018</div>
-            </div>
-            <!--//item-->
-            <div class="item">
-                <h4 class="degree">BSc in Computer Science Engineering</h4>
-                <h5 class="meta">Santiago de Compostela University</h5>
-                <div class="time">2012 - 2016</div>
-            </div>
-            <!--//item-->
-            <div class="item">
-                <h4 class="degree">MSc Music Performance</h4>
-                <h5 class="meta">Koninklijk Conservatorium Brussel</h5>
-                <div class="time">2008 - 2010</div>
-            </div>
-            <!--//item-->
-            <div class="item">
-                <h4 class="degree">BSc Music Performance</h4>
-                <h5 class="meta">CMus Superior Vigo</h5>
-                <div class="time">2004 - 2008</div>
-            </div>
-            <!--//item-->
-        </div>
-        <!--//education-container-->
-
-        <div class="languages-container container-block">
-            <h2 class="container-block-title">Languages</h2>
-            <ul class="list-unstyled interests-list">
-                <li>Spanish &amp; Galician
-                    <span class="lang-desc">(Native)</span>
-                </li>
-                <li>English
-                    <span class="lang-desc">(B2)</span>
-                </li>
-                <li>French
-                    <span class="lang-desc">(A2)</span>
-                </li>
-            </ul>
-        </div>
-        <!--//interests-->
-
-        <div class="interests-container container-block">
-            <h2 class="container-block-title">Interests &amp; Hobbies</h2>
-            <ul class="list-unstyled interests-list">
-                <li>Artificial Intelligence</li>
-                <li>Crypto</li>
-                <li>Agile &amp; DevOps/ChatOps</li>
-                <li>Music (classical, jazz &amp; rock)</li>
-                <li>Swimming</li>
-                <li>Cooking</li>
-            </ul>
-        </div>
-        <!--//interests-->
-
-    </div>
 
     <!--MAIN BAR-->
     <div class="main-wrapper">
@@ -350,8 +305,8 @@
             </div>
 
             <div class="skillset">
-                <div style="display: flex; flex-direction: row;">
-                    <div style="display: flex; flex-direction: column; margin-bottom: 8px; width: 50%; margin-right: 20px;">
+                <div class="skills">
+                    <div class="block" style="margin-right: 20px;">
                         <h3 class="level-title">Machine Learning & Data Science</h3>
                         <div class="item">
                             <h3 class="level-item">Python &amp; R</h3>
@@ -402,7 +357,7 @@
                         </div>
                     </div>
 
-                    <div style="display: flex; flex-direction: column; margin-bottom: 8px; width: 50%;">
+                    <div class="block">
                         <h3 class="level-title">Full Stack</h3>
                         <div>
                             <div class="item">
@@ -567,7 +522,70 @@
         <!--//skills-section-->
 
     </div>
-    <!--//main-body-->
+
+    <!--SIDE BAR-->
+    <div class="sidebar-wrapper">
+
+        <div class="education-container container-block">
+            <h2 class="container-block-title">Education</h2>
+            <div class="item">
+                <h4 class="degree">MSc in Artificial Intelligence Research</h4>
+                <span>Specialty in Data Science and Machine Learning</span>
+                <h5 class="meta">UIMP - AEPIA</h5>
+                <div class="time">2017 - 2018</div>
+            </div>
+            <!--//item-->
+            <div class="item">
+                <h4 class="degree">BSc in Computer Science Engineering</h4>
+                <h5 class="meta">Santiago de Compostela University</h5>
+                <div class="time">2012 - 2016</div>
+            </div>
+            <!--//item-->
+            <div class="item">
+                <h4 class="degree">MSc Music Performance</h4>
+                <h5 class="meta">Koninklijk Conservatorium Brussel</h5>
+                <div class="time">2008 - 2010</div>
+            </div>
+            <!--//item-->
+            <div class="item">
+                <h4 class="degree">BSc Music Performance</h4>
+                <h5 class="meta">CMus Superior Vigo</h5>
+                <div class="time">2004 - 2008</div>
+            </div>
+            <!--//item-->
+        </div>
+        <!--//education-container-->
+
+        <div class="languages-container container-block">
+            <h2 class="container-block-title">Languages</h2>
+            <ul class="list-unstyled interests-list">
+                <li>Spanish &amp; Galician
+                    <span class="lang-desc">(Native)</span>
+                </li>
+                <li>English
+                    <span class="lang-desc">(B2)</span>
+                </li>
+                <li>French
+                    <span class="lang-desc">(A2)</span>
+                </li>
+            </ul>
+        </div>
+        <!--//interests-->
+
+        <div class="interests-container container-block">
+            <h2 class="container-block-title">Interests &amp; Hobbies</h2>
+            <ul class="list-unstyled interests-list">
+                <li>Artificial Intelligence</li>
+                <li>Crypto</li>
+                <li>Agile &amp; DevOps/ChatOps</li>
+                <li>Music (classical, jazz &amp; rock)</li>
+                <li>Swimming</li>
+                <li>Cooking</li>
+            </ul>
+        </div>
+        <!--//interests-->
+
+    </div>
 </div>
 
 <!-- Javascript -->
