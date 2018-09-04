@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
 <html lang="en">
 <!--<![endif]-->
@@ -16,7 +18,7 @@
     <!--<link rel="shortcut icon" href="favicon.ico">-->
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.ico">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
-        rel='stylesheet' type='text/css'>
+          rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
@@ -24,485 +26,555 @@
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles-3.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <img class="profile" src="assets/images/profile.jpg" alt="" />
-                <h1 class="name">Javier Guzmán Figueira Domínguez</h1>
-                <h3 class="tagline">R&amp;D Software Engineer</h3>
-            </div>
-            <!--//profile-container-->
 
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <li class="email">
-                        <i class="fa fa-envelope"></i>
-                        <a href="mailto: jguzmanfd@gmail.com">jguzmanfd@gmail.com</a>
-                    </li>
-                    <li class="website">
-                        <i class="fa fa-globe"></i>
-                        <a href="http://jgoodman8.github.io" target="_blank">jgoodman8.github.io</a>
-                    </li>
-                    <li class="linkedin">
-                        <i class="fa fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/jguzmanfd" target="_blank">linkedin.com/in/jguzmanfd</a>
-                    </li>
-                    <li class="github">
-                        <i class="fa fa-github"></i>
-                        <a href="https://github.com/jgoodman8" target="_blank">github.com/jgoodman8</a>
-                    </li>
-                    <li class="bitbucket">
-                        <i class="fa fa-bitbucket"></i>
-                        <a href="https://bitbucket.org/kikoOne" target="_blank">bitbucket.org/kikoOne</a>
-                    </li>
-                    <li class="bitbucket">
-                        <i class="fa fa-twitter"></i>
-                        <a href="https://twitter.com/jgoodman_8" target="_blank">twitter.com/jgoodman_8</a>
-                    </li>
-                </ul>
-            </div>
-            <!--//contact-container-->
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">MSc in Artificial Intelligence Research</h4>
-                    <span>Specialty in Data Science and Machine Learning</span>
-                    <h5 class="meta">UIMP - AEPIA</h5>
-                    <div class="time">2017 - 2018</div>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <h4 class="degree">BSc in Computer Science Engineering</h4>
-                    <h5 class="meta">Santiago de Compostela University</h5>
-                    <div class="time">2012 - 2016</div>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <h4 class="degree">MSc Music Performance</h4>
-                    <h5 class="meta">Koninklijk Conservatorium Brussel</h5>
-                    <div class="time">2008 - 2010</div>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <h4 class="degree">BSc Music Performance</h4>
-                    <h5 class="meta">CMus Superior Vigo</h5>
-                    <div class="time">2004 - 2008</div>
-                </div>
-                <!--//item-->
-            </div>
-            <!--//education-container-->
+<!--HEADER-->
+<div class="top-bar theme-bg-primary-darken">
 
-            <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Spanish &amp; Galician
-                        <span class="lang-desc">(Native)</span>
-                    </li>
-                    <li>English
-                        <span class="lang-desc">(B2)</span>
-                    </li>
-                    <li>French
-                        <span class="lang-desc">(A2)</span>
-                    </li>
-                </ul>
-            </div>
-            <!--//interests-->
+    <nav class="navbar">
 
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests &amp; Hobbies</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Artificial Intelligence</li>
-                    <li>Crypto</li>
-                    <li>Agile &amp; DevOps/ChatOps</li>
-                    <li>Music (classical, jazz &amp; rock)</li>
-                    <li>Swimming</li>
-                    <li>Cooking</li>
-                </ul>
-            </div>
-            <!--//interests-->
+        <ul class="social-list list-inline mb-0">
+            <li class="list-inline-item">
+                <a class="icon-white" href="https://twitter.com/jgoodman_8">
+                    <svg class="svg-inline--fa fa-twitter fa-w-16 fa-fw" aria-hidden="true" data-prefix="fab"
+                         data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                         data-fa-i2svg="">
+                        <path fill="currentColor"
+                              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                    </svg><!-- <i class="fab fa-twitter fa-fw"></i> -->
+                </a>
+            </li>
+            <!--<li class="list-inline-item">-->
+            <!--<a class="icon-white" href="mailto: jguzmanfd@gmail.com">-->
+            <!--<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-prefix="fas" data-icon="envelope"-->
+            <!--class="svg-inline&#45;&#45;fa fa-envelope fa-w-16" role="img" viewBox="0 0 512 512">-->
+            <!--<path fill="currentColor"-->
+            <!--d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>-->
+            <!--</svg>-->
+            <!--</a>-->
+            <!--</li>-->
+            <li class="list-inline-item">
+                <a class="icon-white" href="https://www.linkedin.com/in/jguzmanfd">
+                    <svg class="svg-inline--fa fa-linkedin-in fa-w-14 fa-fw" aria-hidden="true" data-prefix="fab"
+                         data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                         data-fa-i2svg="">
+                        <path fill="currentColor"
+                              d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path>
+                    </svg><!-- <i class="fab fa-linkedin-in fa-fw"></i> -->
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="icon-white" href="https://github.com/jgoodman8">
+                    <svg class="svg-inline--fa fa-github-alt fa-w-15 fa-fw" aria-hidden="true" data-prefix="fab"
+                         data-icon="github-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"
+                         data-fa-i2svg="">
+                        <path fill="currentColor"
+                              d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"></path>
+                    </svg><!-- <i class="fab fa-github-alt fa-fw"></i> -->
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="icon-white" href="https://stackoverflow.com/users/6145298/jgoodman8">
+                    <svg class="svg-inline--fa fa-stack-overflow fa-w-12 fa-fw" aria-hidden="true" data-prefix="fab"
+                         data-icon="stack-overflow" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"
+                         data-fa-i2svg="">
+                        <path fill="currentColor"
+                              d="M293.7 300l-181.2-84.5 16.7-36.5 181.3 84.7-16.8 36.3zm48-76L188.2 95.7l-25.5 30.8 153.5 128.3 25.5-30.8zm39.6-31.7L262 32l-32 24 119.3 160.3 32-24zM290.7 311L95 269.7 86.8 309l195.7 41 8.2-39zm31.6 129H42.7V320h-40v160h359.5V320h-40v120zm-39.8-80h-200v39.7h200V360z"></path>
+                    </svg><!-- <i class="fab fa-stack-overflow fa-fw"></i> -->
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="icon-white" href="https://bitbucket.org/kikoOne">
+                    <svg aria-hidden="true" data-prefix="fab" data-icon="bitbucket"
+                         class="svg-inline--fa fa-bitbucket fa-w-16" role="img"
+                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                              d="M23.1 32C14.2 31.9 7 38.9 6.9 47.8c0 .9.1 1.8.2 2.8L74.9 462c1.7 10.4 10.7 18 21.2 18.1h325.1c7.9.1 14.7-5.6 16-13.4l67.8-416c1.4-8.7-4.5-16.9-13.2-18.3-.9-.1-1.8-.2-2.8-.2L23.1 32zm285.3 297.3H204.6l-28.1-146.8h157l-25.1 146.8z"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul><!--//social-list-->
 
+        <a class="navbar-toggler">
+            <svg id="toggle-btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="white"/>
+            </svg>
+        </a>
+        <!--</button>-->
+
+        <div id="nav-items" class="navbar-collapse text-uppercase" id="navigation" style="">
+            <ul class="navbar-nav ml-lg-auto">
+                <li class="nav-item active mr-lg-3">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-lg-3">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item mr-lg-3">
+                    <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item mr-lg-3">
+                    <a class="nav-link" href="mailto: jguzmanfd@gmail.com">Contact</a>
+                </li>
+            </ul>
         </div>
-        <!--//sidebar-wrapper-->
 
-        <div class="main-wrapper">
+    </nav>
+</div>
 
-            <section class="section summary-section">
-                <h2 class="section-title">
-                    <i class="fa fa-user"></i>Career Profile</h2>
-                <div class="summary">
-                    <p>BSc in Computer Science Engineering from the University of Santiago de Compostela, has also a professional
-                        music background. Interested in design and development of applications, he has participated in the
-                        field of startups both as a full-stack developer, as an architect and software designer.</p>
-                    </p> He is co-fouder of Gradox, where he works in both development and design of microservices architectures.
-                    Since 2016, he joined the e-Learning analytics department in Gradiant as a R&amp;D Engineer.
-                    His main interest is focused on expanding his knowledge on the fields of Artificial Intelligence and
-                    Data Science.</p>
+<!--PROFILE-->
+<div class="profile-container">
+    <div class="profile-wrapper">
+        <img class="profile" src="assets/images/profile.jpg" alt=""/>
+        <div class="data">
+            <h3 class="tagline">ML Engineer | Data Scientist</h3>
+            <h1 class="name">Javier Guzmán Figueira Domínguez</h1>
+
+            <!--<div class="summary">-->
+            <p class="overview">
+                BSc in Computer Science Engineering from the University of Santiago de Compostela, has also a
+                professional music background. Interested in design and development of applications, he has
+                participated in the field of startups both as a full-stack developer, as an architect and software
+                designer.
+            </p>
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+<!--CONTENT-->
+<div class="wrapper">
+
+    <!--SIDE BAR-->
+    <div class="sidebar-wrapper">
+
+        <div class="education-container container-block">
+            <h2 class="container-block-title">Education</h2>
+            <div class="item">
+                <h4 class="degree">MSc in Artificial Intelligence Research</h4>
+                <span>Specialty in Data Science and Machine Learning</span>
+                <h5 class="meta">UIMP - AEPIA</h5>
+                <div class="time">2017 - 2018</div>
+            </div>
+            <!--//item-->
+            <div class="item">
+                <h4 class="degree">BSc in Computer Science Engineering</h4>
+                <h5 class="meta">Santiago de Compostela University</h5>
+                <div class="time">2012 - 2016</div>
+            </div>
+            <!--//item-->
+            <div class="item">
+                <h4 class="degree">MSc Music Performance</h4>
+                <h5 class="meta">Koninklijk Conservatorium Brussel</h5>
+                <div class="time">2008 - 2010</div>
+            </div>
+            <!--//item-->
+            <div class="item">
+                <h4 class="degree">BSc Music Performance</h4>
+                <h5 class="meta">CMus Superior Vigo</h5>
+                <div class="time">2004 - 2008</div>
+            </div>
+            <!--//item-->
+        </div>
+        <!--//education-container-->
+
+        <div class="languages-container container-block">
+            <h2 class="container-block-title">Languages</h2>
+            <ul class="list-unstyled interests-list">
+                <li>Spanish &amp; Galician
+                    <span class="lang-desc">(Native)</span>
+                </li>
+                <li>English
+                    <span class="lang-desc">(B2)</span>
+                </li>
+                <li>French
+                    <span class="lang-desc">(A2)</span>
+                </li>
+            </ul>
+        </div>
+        <!--//interests-->
+
+        <div class="interests-container container-block">
+            <h2 class="container-block-title">Interests &amp; Hobbies</h2>
+            <ul class="list-unstyled interests-list">
+                <li>Artificial Intelligence</li>
+                <li>Crypto</li>
+                <li>Agile &amp; DevOps/ChatOps</li>
+                <li>Music (classical, jazz &amp; rock)</li>
+                <li>Swimming</li>
+                <li>Cooking</li>
+            </ul>
+        </div>
+        <!--//interests-->
+
+    </div>
+
+    <!--MAIN BAR-->
+    <div class="main-wrapper">
+
+        <!--EXPERIENCE-->
+        <section class="section experiences-section">
+            <h2 class="section-title">
+                <i class="fa fa-briefcase"></i>Experiences</h2>
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">R&amp;D Software Engineer</h3>
+                        <div class="time">October 2016 - Present</div>
+                    </div>
+                    <!--//upper-row-->
+                    <div class="company">
+                        <a href="http://www.gradiant.org">Gradiant, Vigo</a>
+                    </div>
                 </div>
-                <!--//summary-->
-            </section>
-            <!--//section-->
-
-            <section class="section experiences-section">
-                <h2 class="section-title">
-                    <i class="fa fa-briefcase"></i>Experiences</h2>
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">R&amp;D Software Engineer</h3>
-                            <div class="time">October 2016 - Present</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">
-                            <a href="http://www.gradiant.org">Gradiant, Vigo</a>
-                        </div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p>Researcher and developer at the eLearning research line within the Gradiant S&amp;A
-                            Area. He works on a project that aims to facilitate the transition of educational publishers
-                            to the digital world and creating a value proposition based on a layer of analytical intelligence
-                            that allows: evaluate their pedagogical effectiveness; giving feedback to the instructor of the
-                            learning problems of his students; and give feedback to the publisher on how that content is used.</p>
-                        <p>To reach this goal, he collaborates developing a platform that, right now, combines the next technologies:
-                            NodeJs, ReactJS, RabbitMQ, MongoDB, Java, R... In the same way, it is been investigated which are
-                            the best pedagogical tools that can be attributed to the teacher through the elearning analytics
-                            and which techniques are the most appropriate to apply layers of business intelligence and recommendation
-                            systems. Some possible applications could include the addition of machine learning algorithms
-                            (both supervised and unsupervised) and technologies such as Python, Scala, ElasticSearch, LogStash
-                            ...
-                        </p>
-                    </div>
-                    <!--//details-->
+                <!--//meta-->
+                <div class="details">
+                    <p>Researcher and developer at the eLearning research line within the Gradiant S&amp;A
+                        Area. He works on a project that aims to facilitate the transition of educational publishers
+                        to the digital world and creating a value proposition based on a layer of analytical
+                        intelligence
+                        that allows: evaluate their pedagogical effectiveness; giving feedback to the instructor of
+                        the
+                        learning problems of his students; and give feedback to the publisher on how that content is
+                        used.</p>
+                    <p>To reach this goal, he collaborates developing a platform that, right now, combines the next
+                        technologies:
+                        NodeJs, ReactJS, RabbitMQ, MongoDB, Java, R... In the same way, it is been investigated
+                        which
+                        are
+                        the best pedagogical tools that can be attributed to the teacher through the elearning
+                        analytics
+                        and which techniques are the most appropriate to apply layers of business intelligence and
+                        recommendation
+                        systems. Some possible applications could include the addition of machine learning
+                        algorithms
+                        (both supervised and unsupervised) and technologies such as Python, Scala, ElasticSearch,
+                        LogStash
+                        ...
+                    </p>
                 </div>
-                <!--//item-->
+                <!--//details-->
+            </div>
+            <!--//item-->
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Co-founder - Analyst</h3>
-                            <div class="time">September 2016 - May 2017</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">
-                            <a href="http://www.gradox.red/">Gradox, Santiago de Compostela</a>
-                        </div>
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Co-founder - Analyst</h3>
+                        <div class="time">September 2016 - May 2017</div>
                     </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p>Co-foundation, design and development of a collaboration platform between students and oriented to
-                            the early creation of a professional profile. For this, we investigated and designed a microservice-based
-                            architecture, by using the Netflix OSS stack over the Spring framework: Zuul, Hystrix, Ribbon, Eureka,
-                            OAuth2, Spring Stream, Spring Cloud, Spring Data...</p>
-                        <p>This development includes other technologies like AngularJS, NodeJS, Kafka, Dockers, PostgreSQL,
-                            MongoDB, Neo4J, Aerospike ...</p>
+                    <!--//upper-row-->
+                    <div class="company">
+                        <a href="http://www.gradox.red/">Gradox, Santiago de Compostela</a>
                     </div>
-                    <!--//details-->
                 </div>
-                <!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Full Stack Developer</h3>
-                            <div class="time">March 2016 - May 2016</div>
-                        </div>
-                        <!--//upper-row-->
-                        <div class="company">
-                            <a href="http://www.2mares.com/">2Mares, Vigo</a>
-                        </div>
-                    </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p>Maintenance and update of a management application for call centers. Training
-                            on technologies within the Microsoft stack such as .NET over C#, SQL Server, TFVC...</p>
-
-                    </div>
-                    <!--//details-->
+                <!--//meta-->
+                <div class="details">
+                    <p>Co-foundation, design and development of a collaboration platform between students and
+                        oriented
+                        to
+                        the early creation of a professional profile. For this, we investigated and designed a
+                        microservice-based
+                        architecture, by using the Netflix OSS stack over the Spring framework: Zuul, Hystrix,
+                        Ribbon,
+                        Eureka,
+                        OAuth2, Spring Stream, Spring Cloud, Spring Data...</p>
+                    <p>This development includes other technologies like AngularJS, NodeJS, Kafka, Dockers,
+                        PostgreSQL,
+                        MongoDB, Neo4J, Aerospike ...</p>
                 </div>
-                <!--//item-->
+                <!--//details-->
+            </div>
+            <!--//item-->
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Android Developer</h3>
-                            <div class="time">September 2014 - April 2016</div>
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Full Stack Developer</h3>
+                        <div class="time">March 2016 - May 2016</div>
+                    </div>
+                    <!--//upper-row-->
+                    <div class="company">
+                        <a href="http://www.2mares.com/">2Mares, Vigo</a>
+                    </div>
+                </div>
+                <!--//meta-->
+                <div class="details">
+                    <p>Maintenance and update of a management application for call centers. Training
+                        on technologies within the Microsoft stack such as .NET over C#, SQL Server, TFVC...</p>
+
+                </div>
+                <!--//details-->
+            </div>
+            <!--//item-->
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Android Developer</h3>
+                        <div class="time">September 2014 - April 2016</div>
+                    </div>
+                    <!--//upper-row-->
+                    <div class="company">
+                        <a href="https://blog.chattyhive.com/">Chattyhive, Vigo</a>
+                    </div>
+                </div>
+                <!--//meta-->
+                <div class="details">
+                    <p>Collaboration in this startup as an Android developer implementing UX/UI designs. Training in
+                        technologies
+                        such as Android, Python, Git... and first contact with a multidisciplicinar development
+                        team.</p>
+                </div>
+                <!--//details-->
+            </div>
+            <!--//item-->
+
+        </section>
+
+        <!--TECHNOLOGIES-->
+        <section class="section projects-section">
+            <h2 class="section-title">
+                <i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+            <div class="intro">
+                <p>
+                    Sample of the technologies or architectures that I know. Subjectively classified according to my
+                    own knowledge of each other. It seeks to choose technologies representative of different fields, not
+                    all of them.
+                </p>
+            </div>
+
+            <div class="skillset">
+                <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column; margin-bottom: 8px; width: 50%; margin-right: 20px;">
+                        <h3 class="level-title">Machine Learning & Data Science</h3>
+                        <div class="item">
+                            <h3 class="level-item">Python &amp; R</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="80%">
+                                </div>
+                            </div>
                         </div>
-                        <!--//upper-row-->
-                        <div class="company">
-                            <a href="https://blog.chattyhive.com/">Chattyhive, Vigo</a>
+
+                        <div class="item">
+                            <h3 class="level-item">Scala</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="70%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-item">Apache Spark</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="70%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-item">C/C++ &amp; Matlab</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="55%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-item">Apache Hadoop</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="70%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-item">Kafka &amp; RabbitMQ</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="60%">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!--//meta-->
-                    <div class="details">
-                        <p>Collaboration in this startup as an Android developer implementing UX/UI designs. Training in technologies
-                            such as Android, Python, Git... and first contact with a multidisciplicinar development team.</p>
+
+                    <div style="display: flex; flex-direction: column; margin-bottom: 8px; width: 50%;">
+                        <h3 class="level-title">Full Stack</h3>
+                        <div>
+                            <div class="item">
+                                <h5 class="level-item">ReactJS &amp; NodeJS</h5>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="85%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <h3 class="level-item">Spring &amp; AngularJS</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="70%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <h3 class="level-item">Web development</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="80%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <h3 class="level-item">Microservices</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="70%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <h3 class="level-item">Architecture Design</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="75%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <h3 class="level-item">RDBMS / NoSQL</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="65%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!--//details-->
                 </div>
-                <!--//item-->
 
-            </section>
-            <!--//section-->
-
-            <section class="section projects-section">
-                <h2 class="section-title">
-                    <i class="fa fa-archive"></i>Projects</h2>
-                <div class="intro">
-                    <p>These are some projects in those I have collaborated, both academically or professionally.</p>
+                <div>
+                    <h3 class="level-title">Other Skills</h3>
+                    <div class="misc-skills" style="text-align: center">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">Scrum</span>
+                        <span class="skill-tag">TDD</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Android</span>
+                        <span class="skill-tag">.NET/C#</span>
+                        <span class="skill-tag">Apache Zeppelin</span>
+                        <span class="skill-tag">Logstash</span>
+                        <span class="skill-tag">Neo4J</span>
+                    </div>
                 </div>
-                <!--//intro-->
-                <div class="item">
+            </div>
+        </section>
+
+        <!--PROJECTS-->
+        <section class="section projects-section">
+            <h2 class="section-title">
+                <i class="fa fa-archive"></i>Projects</h2>
+            <div class="intro">
+                <p>These are some projects in those I have collaborated, both academically or professionally.</p>
+            </div>
+            <!--//intro-->
+            <div class="item">
                     <span class="project-title">
                         <a href="https://bitbucket.org/kikoOne/tfg_desarrollo_backend/">MetaDW</a>
                     </span> -
-                    <span class="project-tagline">(BSc CSE Project) Metadata management and presentation system in a data warehouse environment for Business
+                <span class="project-tagline">(BSc CSE Project) Metadata management and presentation system in a data warehouse environment for Business
                         Intelligence purposes.</span>
 
-                </div>
-                <!--//item-->
-                <div class="item">
+            </div>
+            <!--//item-->
+            <div class="item">
                     <span class="project-title">
                         <a href="https://bitbucket.org/kikoOne/gradoxms-boilerplate" target="_blank">Gradox</a>
                     </span> -
-                    <span class="project-tagline">Platform of collaboration between students, mainly focused on the University and oriented to the early
+                <span class="project-tagline">Platform of collaboration between students, mainly focused on the University and oriented to the early
                         creation of a professional profile.</span>
-                </div>
-                <!--//item-->
-                <div class="item">
+            </div>
+            <!--//item-->
+            <div class="item">
                     <span class="project-title">
                         <a href="https://github.com/jonathrodriguez/chattyhive-android" target="_blank">Chattyhive</a>
                     </span> -
-                    <span class="project-tagline">An social chat service that allows you to interact with other users through the topics you like and to
+                <span class="project-tagline">An social chat service that allows you to interact with other users through the topics you like and to
                         create communities to share information in real time.</span>
-                </div>
-                <!--//item-->
-                <div class="item">
+            </div>
+            <!--//item-->
+            <div class="item">
                     <span class="project-title">
                         <a href="https://github.com/jgoodman8/chuckBot" target="_blank">ChuckBot</a>
                     </span> -
-                    <span class="project-tagline">Sample of a bot for ChatOps, built with the Hubot framework.</span>
+                <span class="project-tagline">Sample of a bot for ChatOps, built with the Hubot framework.</span>
+            </div>
+            <!--//item-->
+        </section>
+
+        <!--CERTIFICATIONS-->
+        <section class="section projects-section">
+            <h2 class="section-title">
+                <i class="fa fa-certificate"></i>Certifications</h2>
+            <div class="intro">
+                <p>Below are some of the certifications obtained, regardless of the academic and the courses or
+                    formations
+                    carried out without certification.</p>
+            </div>
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">
+                            <a href="https://university.mongodb.com/course_completion/cbe6d77a-c834-4617-a761-45d2bcd2">MongoDB
+                                for Developers (M101P)</a>
+                        </h3>
+                        <div class="time">October 2017</div>
+                    </div>
+                    <div class="company">Mongo University</div>
                 </div>
-                <!--//item-->
-            </section>
-            <!--//section-->
+            </div>
 
-            <section class="section projects-section">
-                <h2 class="section-title">
-                    <i class="fa fa-certificate"></i>Certifications</h2>
-                <div class="intro">
-                    <p>Below are some of the certifications obtained, regardless of the academic and the courses or formations
-                        carried out without certification.</p>
-                </div>
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">
-                                <a href="https://university.mongodb.com/course_completion/cbe6d77a-c834-4617-a761-45d2bcd2">MongoDB for Developers (M101P)</a>
-                            </h3>
-                            <div class="time">October 2017</div>
-                        </div>
-                        <div class="company">Mongo University</div>
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/NGJCA4ZXPUE8">Machine
+                                Learning</a>
+                        </h3>
+                        <div class="time">June 2017</div>
                     </div>
+                    <div class="company">Coursera, Stanford University</div>
                 </div>
+            </div>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">
-                                <a href="https://www.coursera.org/account/accomplishments/certificate/NGJCA4ZXPUE8">Machine Learning</a>
-                            </h3>
-                            <div class="time">June 2017</div>
-                        </div>
-                        <div class="company">Coursera, Stanford University</div>
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">
+                            <a href="#">English B2</a>
+                        </h3>
+                        <div class="time">September 2009</div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!--//skills-section-->
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">
-                                <a href="#">English B2</a>
-                            </h3>
-                            <div class="time">September 2009</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section projects-section">
-                <h2 class="section-title">
-                    <i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-                <div class="intro">
-                    <p>Sample of the technologies or architectures that I know. Subjectively classified according to my own
-                        knowledge of each other. It seeks to choose technologies representative of different fields, not
-                        all of them.</p>
-                </div>
-
-                <div class="skillset">
-                    <div class="item">
-                        <h3 class="level-title">Java &amp; NodeJS</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="98%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">ReactJS &amp; AngularJS</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="95%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">HTML5, CSS3 &amp; SASS</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="95%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">JavaScript &amp; TypeScript</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="95%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Spring Framework</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="82%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">SQL Databases &amp; MongoDB</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="82%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">R</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="60%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Microservices</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="65%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Scrum &amp; TDD</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="80%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Python, Matlab &amp; C/C++</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="55%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Android &amp; PHP</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="50%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">.NET/C#</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="45%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Neo4J</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="42%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//<item--></item-->
-
-                    <div class="item">
-                        <h3 class="level-title">ML &amp; Data Science</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="45%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
-
-                </div>
-            </section>
-            <!--//skills-section-->
-
-        </div>
-        <!--//main-body-->
     </div>
+    <!--//main-body-->
+</div>
 
-    <!--<footer class="footer">
-        <div class="text-center">
-            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div>
-    </footer>-->
-
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+<!-- Javascript -->
+<script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- custom js -->
+<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
