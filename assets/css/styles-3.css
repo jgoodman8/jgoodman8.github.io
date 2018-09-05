@@ -52,7 +52,7 @@ p {
 .wrapper {
     background: #5BB66F;
     max-width: 1300px;
-    margin: 0 5% 25px 5%;
+    margin: 0 auto 25px auto;
     position: relative;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -375,6 +375,16 @@ p {
         float: left;
         position: relative;
         top: 1px;
+    }
+}
+
+@media (max-width: 430px) {
+    .skillset .level-item {
+        width: 100%;
+    }
+
+    .skillset .level-bar {
+        width: 100%;
     }
 }
 

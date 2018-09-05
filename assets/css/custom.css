@@ -277,3 +277,28 @@
         width: 100%;
     }
 }
+
+/*** TECHS ***/
+
+.tech-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-wrapper .job-techs {
+    color: #3F4650;
+    font-size: 14px;
+    margin-top: 0;
+    /*margin-bottom: 5px;*/
+    font-weight: 500;
+}
+
+.toast {
+    color: #fff;
+    background-color: #434E5E;
+    padding: 1px 0.6em 1px 0.6em;
+    border-radius: 10rem;
+    margin-right: 5px;
+    font-size: 12px;
+}
